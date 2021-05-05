@@ -56,20 +56,20 @@ p {
 
 /* buttons */
 .btn-primary, .btn-primary:active, .btn-primary:visited, .btn-primary:focus, .btn-primary.focus {
-    background-color: #033761 !important; 
-    border-color: #033761;
+    background-color: #0c2340 !important; 
+    border-color: #0c2340;
     color: #ffffff;
-    border-radius: 5px;
-    font-family: 'Zilla Slab', serif;
+    border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
     box-shadow: none !important;
     font-size: 1.25em;
 }
 .btn-primary:hover {
-    background-color: #0079D9 !important;
-    border-color: #0079D9;
+    background-color: #1f9659 !important;
+    border-color: #1f9659;
     color: #FFFFFF;
-    border-radius: 5px;
-    font-family: 'Zilla Slab', serif;
+    border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
     box-shadow: none !important;
 }
 .btn-secondary, .btn-secondary:hover, .btn-secondary:active, .btn-secondary:visited, .btn-secondary:focus, .btn-secondary.focus {
@@ -77,12 +77,12 @@ p {
     border-color: #838383;
     color: #FFFFFF;
     border-radius: 0px;
-    font-family: 'Zilla Slab', serif;
+    font-family: 'Montserrat', sans-serif;
     box-shadow: none !important;
     outline: #838383;
 }
 .button {
-    background-color: #ffffff;
+    background-color: #1f9659;
     border: none;
     color: rgb(0, 0, 0);
     padding: 5px;
