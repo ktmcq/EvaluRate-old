@@ -1,0 +1,284 @@
+/* for modern Contact Us page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contact {
+    position: relative;
+    min-height: 95vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'IBM Plex Sans', sans-serif !important;
+    background: url('../images/rural-land-5b.jpg');
+    background-size: cover;
+}
+.contact .content {
+    max-width: 991px;
+    text-align: center;
+}
+.contact .content h1 {
+    color: #FFFFFF;
+    font-family: 'Zilla Slab', serif !important;
+}
+.contact .content p {
+    color: #ffffff;
+}
+.contact .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+} 
+.container .contactInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactInfo .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container .contactInfo .box .icon {
+    min-width: 60px;
+    height: 60px;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.container .contactInfo .box .text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #ffffff;
+    flex-direction: column;
+    font-weight: 300;
+}
+.container .contactInfo h3 {
+    font-family: 'Zilla Slab', serif !important;
+    color: #000000;
+    font-weight: bold;
+}
+.container .contactInfo .row {
+    margin-left: 1px
+}
+.contactForm {
+    width: 50%;
+    padding: 30px;
+    background: #ffffff;
+}
+.container .contactForm h3 {
+    font-family: 'Zilla Slab', serif !important;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.contactForm .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactForm .inputBox input,
+.contactForm .inputBox textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #969696;
+    border-right: 2px solid #cecece;
+    outline: none;
+}
+.contactForm .inputBox textarea {
+    min-height: 200px;
+}
+.contactForm .inputBox span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span {
+    color: #0079D9;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+.contactForm .inputBox input[type="submit"] {
+    width: 100px;
+    background: #0079D9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+@media (max-width: 991px) {
+    .contact {
+        padding: 50px;
+    }
+    .container {
+        flex-direction: column;
+    }
+    .container .contactInfo {
+        margin-bottom: 40px;
+    }
+    .container .contactInfo,
+    .contactForm {
+        width: 100%;
+    }
+}
+
+
+/* general stuff */
+body {
+    padding-top: 56px;
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+p { 
+    margin-bottom: 8px; 
+}
+@media (min-width: 992px){
+    .navbar li {
+        margin-left : .9em;
+        margin-right : .9em;
+    }
+}
+.shadow {
+    font-family: 'Montserrat', sans-serif !important;
+    padding: 50px;
+}
+.navbar { 
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1f9659 !important; 
+    font-size: 18px;
+}
+.navbar-nav .nav-item .nav-link {
+    color: #0c2340;
+}
+.navbar-nav .nav-item:hover .nav-link {
+    color: #f5cf65;
+}
+.navbar-nav .nav-item.active .nav-link {
+    color: #f5cf65;
+}
+
+.jumbotron{
+    padding: 35px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    /* allows for background images */
+	background-size: cover;
+    background-repeat: no-repeat;
+} 
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 25px;
+    line-height: 40px;
+    background-color: #f5cf65;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 16px;
+    color: #0c2340 !important;
+    
+}
+
+/* buttons */
+.btn-primary, .btn-primary:active, .btn-primary:visited, .btn-primary:focus, .btn-primary.focus {
+    background-color: #033761 !important; 
+    border-color: #033761;
+    color: #ffffff;
+    border-radius: 5px;
+    font-family: 'Zilla Slab', serif;
+    box-shadow: none !important;
+    font-size: 1.25em;
+}
+.btn-primary:hover {
+    background-color: #0079D9 !important;
+    border-color: #0079D9;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-family: 'Zilla Slab', serif;
+    box-shadow: none !important;
+}
+.btn-secondary, .btn-secondary:hover, .btn-secondary:active, .btn-secondary:visited, .btn-secondary:focus, .btn-secondary.focus {
+    background-color: #838383 !important;
+    border-color: #838383;
+    color: #FFFFFF;
+    border-radius: 0px;
+    font-family: 'Zilla Slab', serif;
+    box-shadow: none !important;
+    outline: #838383;
+}
+.button {
+    background-color: #ffffff;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    border-radius: 50%;
+  }
+
+/* vertical center */
+.centerme {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+/* MODAL */
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 80px auto; /* 15% from the top and centered */
+    padding: 5px;
+    border: 1px solid #888;
+    width: 90%; /* Could be more or less, depending on screen size */
+}
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
