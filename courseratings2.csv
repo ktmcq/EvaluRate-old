@@ -1,0 +1,117 @@
+SQL> select email, coursename, usefulness, workload, difficulty, enjoyment, comments, takeagain, overall from ratescourse;
+harry@gmail.com                                                                                     ,Fundamentals of Computing     ,        10,         6,         5,        10
+I had never coded before this class and it wasn't too overwhelming - gradually teaches you everything you need to know
+1 ,         9
+
+jimmy@gmail.com                                                                                     ,Discrete Mathematics          ,         8,         9,         7,         8
+I enjoyed most of the concepts of the class
+1 ,         8
+
+jimmy@gmail.com                                                                                     ,Data Science                  ,        10,        10,        10,        10
+Best class ever. Math >>>
+1 ,        10
+
+ktmcq@nd.edu                                                                                        ,Ethical & Professional Issues ,         1,         8,         7,         1
+boring
+0 ,         1
+
+nwarren@nd.edu                                                                                      ,Advanced Database Projects    ,        10,        10,        10,        10
+best class EVER!
+1 ,        10
+
+katie@gmail.com                                                                                     ,Science, Theology, & Creation ,        10,         4,         6,         8
+average class, course kind of boring
+1 ,         6
+
+benz@gmail.com                                                                                      ,Fundamentals of Computing     ,        10,        10,        10,        10
+best class ever
+1 ,        10
+
+nwarren@nd.edu                                                                                      ,Fundamentals of Computing     ,        10,         8,         9,         7
+super useful class you should take!
+1 ,         9
+
+katie@gmail.com                                                                                     ,Logic Design                  ,         1,         1,         1,         1
+awful class, don't recommend
+0 ,         1
+
+nwarren@nd.edu                                                                                      ,Data Science                  ,         1,         1,         1,         1
+didn't learn anything
+0 ,         1
+
+nwarren@nd.edu                                                                                      ,Christianity & World Religions,        10,        10,        10,        10
+I really recommend this class. Super super useful - I now have a new appreciation of world religions
+1 ,        10
+
+taylorswift@gmail.com                                                                               ,Fundamentals of Computing     ,        10,         6,         6,        10
+Great class; learned a lot; made Snake
+1 ,        10
+
+harry@gmail.com                                                                                     ,Systems Programming           ,        10,         1,         1,         7
+Super useful and a really amazing class. Took with Bui and he was the best
+1 ,         9
+
+jimmy@gmail.com                                                                                     ,Ethical & Professional Issues ,         1,         3,         5,         1
+not about ethics or computer science
+0 ,         1
+
+nicole@nd.edu                                                                                       ,Advanced Database Projects    ,        10,        10,        10,        10
+Hands down the best class I've taken at ND so far! I feel so prepared for the real world
+1 ,        10
+
+nicole@nd.edu                                                                                       ,Christianity & World Religions,        10,        10,        10,        10
+Couldn't recommend a better course. I learnt sooo much, and barely any work which is a huge plus
+1 ,        10
+
+jimmy@gmail.com                                                                                     ,Data Structures               ,         1,         1,         1,         1
+The only thing I learned was what a linked list is
+0 ,         1
+
+jimmy@gmail.com                                                                                     ,Database Concepts             ,         9,         5,         5,         8
+Learned a lot and feel like everyone should take this class
+1 ,         8
+
+cassie@gmail.com                                                                                    ,Data Science                  ,         4,         7,         7,         5
+Easy enough elective if you have a big & good group for final project. assignments manageable
+1 ,         6
+
+billy@gmail.com                                                                                     ,Data Science                  ,         1,         8,         8,         4
+Fell asleep every day but got an A
+0 ,         5
+
+taylorswift@gmail.com                                                                               ,Data Science                  ,         1,        10,        10,         1
+Just make sure you don't put music in the background of your final video
+1 ,         5
+
+taylorswift@gmail.com                                                                               ,Data Structures               ,         1,         1,         1,         1
+TGOs are the worst thing ever invented
+0 ,         1
+
+taylorswift@gmail.com                                                                               ,Programming Challenges        ,        10,         8,         7,        10
+probably my favorite class I've ever taken
+1 ,        10
+
+billy@gmail.com                                                                                     ,Programming Challenges        ,        10,         6,         4,        10
+Seriously an amazing class. Amazing prep for job interviews. Tough but fair.
+1 ,        10
+
+billy@gmail.com                                                                                     ,Advanced Database Projects    ,        10,         7,         5,        10
+great class - learn a lot and very useful
+1 ,        10
+
+billy@gmail.com                                                                                     ,Science, Theology, & Creation ,         4,         7,         7,         3
+I am an atheist and this class was very boring and inapplicable
+0 ,         7
+
+billy@gmail.com                                                                                     ,Christianity & World Religions,         1,         8,         8,         1
+Really easy and no homework but so boring and completely useless
+0 ,         9
+
+taylorswift@gmail.com                                                                               ,Christianity & World Religions,         2,         5,         6,         3
+I didn't know anything about Christianity before this and that made this class so hard
+0 ,         6
+
+
+28 rows selected.
+
+SQL> spool off

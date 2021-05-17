@@ -1,0 +1,10 @@
+@c_user
+@c_course
+@c_prof
+@c_dept
+@c_ratescourse
+@c_ratesprof
+@c_choosescourse
+@c_teaches
+@c_profisin
+@c_courseisin

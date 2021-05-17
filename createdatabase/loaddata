@@ -1,0 +1,11 @@
+sqlplus -S hr/hr @create
+sqlldr hr/hr control=userinfo.ctl
+sqlldr hr/hr control=professor.ctl
+sqlldr hr/hr control=course.ctl
+sqlldr hr/hr control=teaches.ctl
+sqlldr hr/hr control=ratescourse.ctl
+sqlldr hr/hr control=ratesprofessor.ctl
+sqlldr hr/hr control=choosescourse.ctl
+sqlldr hr/hr control=dept.ctl
+sqlldr hr/hr control=professorisin.ctl
+sqlldr hr/hr control=courseisin.ctl

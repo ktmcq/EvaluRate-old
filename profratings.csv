@@ -1,0 +1,213 @@
+SQL> select email, profid, teachingstyle, approachability, comments, takeagain, overall from ratesprofessor;
+btomp@nd.edu                                                                                        ,14        ,            5,              8
+Really young professor without a ton of experience running a class, so some of the assignments didn't make sense. He worked really hard to make himself available outside of class to people who needed help though
+0 ,         6
+
+bella@nd.edu                                                                                        ,2         ,            3,             10
+Super nice guy, but lectures weren't super engaging. He knows his stuff, he literally wrote the textbook we used
+1 ,         8
+
+nwarren@nd.edu                                                                                      ,9         ,           10,              8
+def would take this professor again
+1 ,         9
+
+katie@gmail.com                                                                                     ,1         ,            3,              8
+super tough grader
+0 ,         3
+
+benz@gmail.com                                                                                      ,3         ,           10,             10
+best prof I've ever had
+1 ,        10
+
+nwarren@nd.edu                                                                                      ,3         ,           10,             10
+incredible guy - everyone loves Ramzi
+1 ,        10
+
+katie@gmail.com                                                                                     ,10        ,            1,              1
+very unfriendly. wouldn't recommend
+0 ,         2
+
+matt@landone.com                                                                                    ,3         ,           10,             10
+best professor EVER!!!!
+1 ,        10
+
+laurie@gmail.com                                                                                    ,2         ,            3,              9
+super nice person but didn't learn much from them
+0 ,         5
+
+laurie@gmail.com                                                                                    ,72        ,           10,             10
+interesting guy and learnt a lot from him. Loved his teaching style
+1 ,        10
+
+nwarren@nd.edu                                                                                      ,10        ,            4,              5
+not very approachable and didn't learn much tbh
+0 ,         5
+
+nwarren@nd.edu                                                                                      ,39        ,            5,              5
+average prof tbh
+0 ,         5
+
+benz@gmail.com                                                                                      ,39        ,            6,              8
+nice guy but didn't learn that much
+0 ,         7
+
+kmchugh6@nd.edu                                                                                     ,3         ,           10,             10
+Databases is the best class ever, and Ramzi put the FUN in FUNd comp. Get ready for the ride of your life if you take a class with Ramzi. He'll turn you into a Pixar animator if you take VFX. Watch out
+1 ,        10
+
+tlynch3@nd.edu                                                                                      ,2         ,           10,             10
+such a nice guy and I learnt a lot from him
+1 ,        10
+
+tlynch3@nd.edu                                                                                      ,39        ,            7,              6
+average professor but I did enjoy his classes so would probs take him again
+1 ,         7
+
+tlynch3@nd.edu                                                                                      ,1         ,            3,             10
+great guy, but maybe a bit too chill - did not learn that much from him
+1 ,         7
+
+kayla@nd.edu                                                                                        ,1         ,            5,             10
+A really nice guy, and very approachable. Great for life advice. His teaching style is pretty average though
+1 ,         8
+
+nicole@nd.edu                                                                                       ,40        ,            4,              5
+Fell asleep in his class every day. Super monotone voice
+0 ,         3
+
+nicole@nd.edu                                                                                       ,41        ,            6,              7
+Not the most flashy lecturer, but really knew her stuff
+1 ,         7
+
+kayla@nd.edu                                                                                        ,41        ,            7,              8
+Great professor who cares about her students!
+1 ,         8
+
+kayla@nd.edu                                                                                        ,42        ,            8,             10
+smartest and nicest professor ever
+1 ,         9
+
+kayla@nd.edu                                                                                        ,43        ,            7,              8
+Keeps students engaged in class, very interactive and asks a lot of questions to keep people paying attention
+1 ,         8
+
+kayla@nd.edu                                                                                        ,44        ,            7,              9
+Really liked him as a person but found his class boring
+1 ,         7
+
+kayla@nd.edu                                                                                        ,3         ,           10,             10
+I learned so much in his classes! Amazing professor!
+1 ,        10
+
+kayla@nd.edu                                                                                        ,77        ,            1,              2
+had to teach myself everything
+0 ,         1
+
+taylorswift@gmail.com                                                                               ,40        ,            5,              4
+Not the nicest and kind of disorganized
+0 ,         3
+
+taylorswift@gmail.com                                                                               ,45        ,            7,              9
+Nice guy and pretty good at explaining things but could give more examples
+1 ,         7
+
+jimmy@gmail.com                                                                                     ,3         ,           10,             10
+great guy, better dancer
+1 ,        10
+
+nicole@nd.edu                                                                                       ,72        ,            9,              9
+great professor - I really recommend you taking him. A really nice guy and a great mentor
+1 ,         9
+
+nicole@nd.edu                                                                                       ,42        ,            7,             10
+I liked Prof. Akesseh a lot. Approachability is a strength
+1 ,         8
+
+btomp@nd.edu                                                                                        ,70        ,            9,              6
+She does super interesting research that she tries to weave into the course material, which I enjoyed learning about. It was sometimes hard in her classes to get to know her beyond the classroom
+1 ,         9
+
+btomp@nd.edu                                                                                        ,36        ,            4,              4
+Expects a lot of his students and doesn't provide the support to help his students meet those expectations
+0 ,         4
+
+btomp@nd.edu                                                                                        ,15        ,            7,              8
+Good professor, but this was the first class he taught so there were definitely some bumps along the way
+1 ,         7
+
+btomp@nd.edu                                                                                        ,83        ,            8,              9
+Really cares about his students and wants to see them be successful in life, and he is willing to use his industry connections to help students
+1 ,         8
+
+evie@nd.edu                                                                                         ,41        ,            8,              7
+Good professor but a really hard grader, she is going to make you work but you are going to learn a lot
+1 ,         7
+
+evie@nd.edu                                                                                         ,44        ,            9,              8
+Really good professor who made a subject that wasn't super interesting to me somewhat bearable
+0 ,         8
+
+btomp@nd.edu                                                                                        ,8         ,            4,              5
+Pretty standard professor, lectures for a bit and does example problems. Could be better and could be worse
+0 ,         5
+
+btomp@nd.edu                                                                                        ,32        ,            3,              4
+Avoid this professor at all costs. Didn't really teach us anything and gave really tough homework assignments. Going to class didn't help because his lectures had nothing to do with what we were supposed to be doing on the homeworks
+0 ,         4
+
+btomp@nd.edu                                                                                        ,21        ,            7,              8
+Super supportive and met with me weekly to go over my progress on my semester-long project. Hard to connect with but very willing to help
+1 ,         8
+
+taylorswift@gmail.com                                                                               ,4         ,           10,             10
+Best prof I've ever had!! wish I could take more classes with him
+1 ,        10
+
+bella@nd.edu                                                                                        ,36        ,            8,             10
+Gets a bad rap for being a tough professor but is a really good guy who cares about his students. Demands a lot from us but will go out of his way to help a student connect with an alum in industry. I have his connections to thank for the internship I landed this summer!
+1 ,         9
+
+billy@gmail.com                                                                                     ,4         ,           10,              8
+Bui is amazing and you should try to take as many classes as possible with him. Wish I took OS with him
+1 ,        10
+
+kellie@nd.edu                                                                                       ,36        ,            5,              8
+He is a smart guy but I found myself confused more often than not in his class. He is easy to talk to and meet with outside of class but struggles to put the material in words people who aren't experts in the field can understand
+0 ,         5
+
+billy@gmail.com                                                                                     ,42        ,            7,              1
+knows his stuff but he made me cry
+0 ,         4
+
+katiemchug5@gmail.com                                                                               ,42        ,            9,              1
+I love taking Eb's courses! He's a tough nut to crack but once you get to know him he is AMAZING!
+0 ,         7
+
+lauren@gmail.com                                                                                    ,36        ,            2,              4
+This professor was my worst experience at ND so far. I didn't learn anything from his class; it was so hard that I  always felt discouraged. He definitely plays favorites
+0 ,         1
+
+billy@gmail.com                                                                                     ,5         ,            3,             10
+Wish he gave us lecture notes. Could never follow what was going on
+0 ,         6
+
+billy@gmail.com                                                                                     ,36        ,            5,             10
+He gave too much homework but was always helpful in office hours
+1 ,         5
+
+kellie@nd.edu                                                                                       ,2         ,            2,              7
+I didn't learn anything from going to class, really didn't like his teaching style
+0 ,         4
+
+lauren@gmail.com                                                                                    ,2         ,            1,              7
+I dreaded going to this class every day. The material made no sense and the lectures were boring
+0 ,         5
+
+ktmcq@nd.edu                                                                                        ,3         ,           10,             10
+best prof ever!!
+1 ,        10
+
+
+52 rows selected.
+
+SQL> spool off
